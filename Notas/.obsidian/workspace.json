@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3d04183d78f37472",
+        "id": "8b872fbd0b89138c",
         "type": "tabs",
         "children": [
           {
-            "id": "0980823ece96d5dc",
+            "id": "e07966ff3ccc067b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "JavaScript/Tipos de datos.md",
-                "mode": "source",
-                "source": false
+                "file": "Inicio.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "Tipos de datos"
+              "icon": "lucide-table",
+              "title": "Inicio"
             }
           }
         ]
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Tipos de datos.md",
+                "file": "Inicio.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,15 +200,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0980823ece96d5dc",
+  "active": "e07966ff3ccc067b",
   "lastOpenFiles": [
-    "JavaScript/Variables y constantes.md",
-    "JavaScript/Tipos de datos.md",
+    "JavaScript/Operadores.md",
     "Inicio.base",
+    "JavaScript/Booleanos.md",
+    "JavaScript/Tipos de datos.md",
     "JavaScript/Sintaxis de JavaScript.md",
-    "JavaScript/Configuración del entorno de desarrollo.md",
     "JavaScript/Introducción a JavaScript.md",
+    "JavaScript/Variables y constantes.md",
+    "JavaScript/Configuración del entorno de desarrollo.md",
     "assets/consola del navegador.png",
+    "assets/consola del navegador 1.png",
     "assets/Logo de Devin Desktop.png",
     "assets",
     "assets/JavaScript logo.png",
