@@ -1,6 +1,8 @@
 properties:
   file.folder:
     displayName: Tema
+  note.tags:
+    displayName: tema
 views:
   - type: table
     name: Tabla
@@ -12,16 +14,17 @@ views:
       direction: ASC
     order:
       - file.name
-      - file.folder
-      - number
+      - orden
       - file.ctime
+      - tags
     sort:
+      - property: orden
+        direction: ASC
       - property: file.basename
         direction: ASC
       - property: number
         direction: ASC
     columnSize:
-      file.folder: 100
-      note.number: 111
+      note.orden: 90
   - type: cards
     name: Vista

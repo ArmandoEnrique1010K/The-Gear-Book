@@ -1,5 +1,7 @@
 ---
-number: 1
+orden: 1
+tags:
+  - Introducción
 ---
 
 ## ¿Qué es JavaScript?
