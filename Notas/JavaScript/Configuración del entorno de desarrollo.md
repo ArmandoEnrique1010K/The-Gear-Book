@@ -25,7 +25,7 @@ Un buen editor de código es clave para la productividad. Debe ofrecer:
 
 Windsurf era considerado el editor de código con IA más avanzado y popular, sucesor directo de Codeium. Se trata de un IDE inteligente y gratuito, diseñado para desarrolladores FullStack e ingenieros de IA generativa. Su principal ventaja es la alta compatibilidad con las extensiones de Visual Studio Code, lo que facilita enormemente la migración para quienes vienen de ese ecosistema.
 
-![214](assets/Logo%20de%20Devin%20Desktop.png)
+![Devin Desktop Logo|167](../assets/Logo%20de%20Devin%20Desktop.png)
 
 ### Antecedentes del cambio
 
@@ -111,7 +111,7 @@ Accede a ella con `F12` → pestaña **Console**. Allí verás todos los mens
 
 >📌 Este detalle es muy útil para rastrear errores y entender el flujo de ejecución.
 
-![](assets/consola%20del%20navegador.png)
+![Consola del navegador](../assets/consola%20del%20navegador.png)
 
 ### Uso de archivos JavaScript externos
 

@@ -8,7 +8,7 @@ tags:
 
 JavaScript es un **lenguaje de programación interpretado, dinámico, multiparadigma y orientado a objetos basado en prototipos**. Es una de las tecnologías fundamentales en el desarrollo web, junto con HTML (estructura) y CSS (estilo). Su principal función es dotar de interactividad y dinamismo a las páginas web, permitiendo desde animaciones y validaciones de formularios hasta actualizaciones en tiempo real sin necesidad de recargar la página.
 
-![159](assets/JavaScript%20logo.png)
+![JavaScript Logo|164](../assets/JavaScript%20logo.png)
 
 ## Historia de JavaScript
 

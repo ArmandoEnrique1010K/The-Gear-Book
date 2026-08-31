@@ -11,13 +11,14 @@
             "id": "e07966ff3ccc067b",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Inicio.base",
-                "viewName": "Tabla"
+                "file": "JavaScript/Introducción a JavaScript.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Inicio"
+              "icon": "lucide-file",
+              "title": "Introducción a JavaScript"
             }
           }
         ]
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inicio.base",
+                "file": "JavaScript/Introducción a JavaScript.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,14 +203,14 @@
   },
   "active": "e07966ff3ccc067b",
   "lastOpenFiles": [
+    "JavaScript/Variables y constantes.md",
+    "JavaScript/Sintaxis de JavaScript.md",
+    "JavaScript/Tipos de datos.md",
+    "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Introducción a JavaScript.md",
     "JavaScript/Operadores.md",
     "Inicio.base",
     "JavaScript/Booleanos.md",
-    "JavaScript/Tipos de datos.md",
-    "JavaScript/Sintaxis de JavaScript.md",
-    "JavaScript/Introducción a JavaScript.md",
-    "JavaScript/Variables y constantes.md",
-    "JavaScript/Configuración del entorno de desarrollo.md",
     "assets/consola del navegador.png",
     "assets/consola del navegador 1.png",
     "assets/Logo de Devin Desktop.png",

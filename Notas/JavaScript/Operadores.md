@@ -65,8 +65,8 @@ Comparan dos valores y devuelven `true` o `false`.
 
 | Operador | Nombre               | Descripción                                            |
 | -------- | -------------------- | ------------------------------------------------------ |
-| ``==``   | Igualdad débil       | Compara solo el valor, convierte tipos automáticamente |
-| `===`    | Igualdad estricta    | Compara valor **y** tipo. **Recomendado**              |
+| \=\=     | Igualdad débil       | Compara solo el valor, convierte tipos automáticamente |
+| \=\=\=   | Igualdad estricta    | Compara valor **y** tipo. **Recomendado**              |
 | `!=`     | Desigualdad débil    | Compara si son distintos, convierte tipos              |
 | `!==`    | Desigualdad estricta | Compara valor o tipo distinto. **Recomendado**         |
 | `>`      | Mayor que            | `true` si el izquierdo es mayor que el derecho         |
