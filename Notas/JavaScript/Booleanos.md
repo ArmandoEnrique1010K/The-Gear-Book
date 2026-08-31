@@ -85,7 +85,7 @@ console.log(!(5 > 3 && true));  // false
 
 ### Usos prácticos del cortocircuito
 
-Por lo general se utiliza el operador `&&` para ejecutar algo **solo si el valor (o condición) de la izquierda es truthy**.
+Se utiliza el operador `&&` para ejecutar algo **solo si el valor (o condición) de la izquierda es truthy**.
 
 El operador `||` se utiliza para asignar **valores por defecto solamente si el valor de la izquierda es falsy.**
 

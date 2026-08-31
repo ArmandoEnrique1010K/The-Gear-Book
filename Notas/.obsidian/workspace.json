@@ -8,17 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e07966ff3ccc067b",
+            "id": "dc17dfbe2a077d05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "JavaScript/Introducción a JavaScript.md",
-                "mode": "source",
-                "source": false
+                "file": "Inicio.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "Introducción a JavaScript"
+              "icon": "lucide-table",
+              "title": "Inicio"
             }
           }
         ]
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Introducción a JavaScript.md",
+                "file": "Inicio.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,21 +200,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e07966ff3ccc067b",
+  "active": "dc17dfbe2a077d05",
   "lastOpenFiles": [
-    "JavaScript/Variables y constantes.md",
-    "JavaScript/Sintaxis de JavaScript.md",
-    "JavaScript/Tipos de datos.md",
-    "JavaScript/Configuración del entorno de desarrollo.md",
-    "JavaScript/Introducción a JavaScript.md",
-    "JavaScript/Operadores.md",
+    "JavaScript/Números decimales.md",
     "Inicio.base",
+    "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Tipos de datos.md",
+    "JavaScript/Variables y constantes.md",
+    "JavaScript/Cadenas de texto.md",
     "JavaScript/Booleanos.md",
+    "JavaScript/Números y matemáticas.md",
+    "JavaScript/Operadores.md",
+    "JavaScript/Conversión de tipos.md",
+    "JavaScript/Introducción a JavaScript.md",
+    "JavaScript/Sintaxis de JavaScript.md",
+    "assets/JavaScript logo.png",
+    "assets/Logo de Devin Desktop.png",
+    "assets/JavaScript-logo.png",
+    "assets/Logo-de-Devin-Desktop.png",
     "assets/consola del navegador.png",
     "assets/consola del navegador 1.png",
-    "assets/Logo de Devin Desktop.png",
     "assets",
-    "assets/JavaScript logo.png",
     "JavaScript",
     "JavaScript Logo.png",
     "Bienvenido.md",

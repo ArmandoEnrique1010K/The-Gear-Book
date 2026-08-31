@@ -59,7 +59,7 @@ contador = 2;
 contador **= valor; // 32
 ```
 
-## **Operadores de Comparación**
+## Operadores de Comparación
 
 Comparan dos valores y devuelven `true` o `false`.
 

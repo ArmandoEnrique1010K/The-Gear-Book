@@ -25,6 +25,7 @@ views:
       - property: number
         direction: ASC
     columnSize:
+      file.name: 263
       note.orden: 90
   - type: cards
     name: Vista
