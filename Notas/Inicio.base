@@ -17,9 +17,13 @@ views:
       - orden
       - file.ctime
       - tags
+      - Comentario
+      - estado
     sort:
       - property: orden
         direction: ASC
+      - property: tags
+        direction: DESC
       - property: file.basename
         direction: ASC
       - property: number

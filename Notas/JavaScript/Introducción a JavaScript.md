@@ -2,6 +2,7 @@
 orden: 1
 tags:
   - Introducción
+estado: true
 ---
 
 ## ¿Qué es JavaScript?

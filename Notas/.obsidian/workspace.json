@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b872fbd0b89138c",
+        "id": "b4d6fdad45bc890e",
         "type": "tabs",
         "children": [
           {
-            "id": "dc17dfbe2a077d05",
+            "id": "5c92ad8f3aff5d8b",
             "type": "leaf",
             "state": {
               "type": "bases",
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "IEEE 754",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,20 +200,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc17dfbe2a077d05",
+  "active": "5c92ad8f3aff5d8b",
   "lastOpenFiles": [
     "JavaScript/Números decimales.md",
     "Inicio.base",
-    "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Números y matemáticas.md",
+    "JavaScript/Cadenas de texto.md",
+    "JavaScript/Conversión de tipos.md",
+    "JavaScript/Booleanos.md",
+    "JavaScript/Operadores.md",
     "JavaScript/Tipos de datos.md",
     "JavaScript/Variables y constantes.md",
-    "JavaScript/Cadenas de texto.md",
-    "JavaScript/Booleanos.md",
-    "JavaScript/Números y matemáticas.md",
-    "JavaScript/Operadores.md",
-    "JavaScript/Conversión de tipos.md",
-    "JavaScript/Introducción a JavaScript.md",
     "JavaScript/Sintaxis de JavaScript.md",
+    "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Introducción a JavaScript.md",
+    "Formato de números.md",
     "assets/JavaScript logo.png",
     "assets/Logo de Devin Desktop.png",
     "assets/JavaScript-logo.png",

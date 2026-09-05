@@ -2,6 +2,8 @@
 orden: 7
 tags:
   - Datos
+Comentario:
+estado: true
 ---
 
 ## Valores Truthy y Falsy
@@ -20,9 +22,9 @@ Son aquellos que **se convierten automáticamente a `false`** en evaluaciones
 | Especiales | `null`, `undefined`, `NaN` |
 
 ```javascript
-if (0) console.log("Esto no se ejecuta");
-if ("") console.log("Esto tampoco");
-if (null) console.log("Ni esto");
+if (0) console.log("This does not execute");
+if ("") console.log("Not this either");
+if (null) console.log("Not even this");
 ```
 
 ### Valores Truthy (se comportan como `true`)
@@ -38,9 +40,9 @@ Cualquier valor que **no esté en la lista de falsy** es truthy:
 | Funciones | `function() {}`, `() => {}`      |
 
 ```javascript
-if (1) console.log("Sí se ejecuta");
-if ([]) console.log("Arreglo vacío es truthy");
-if ({}) console.log("Objeto vacío también");
+if (1) console.log("It does execute");
+if ([]) console.log("An empty array is truthy");
+if ({}) console.log("Empty object as well");
 ```
 
 ## Comparaciones curiosas (y peligrosas)
@@ -70,16 +72,16 @@ Se usan para combinar o invertir condiciones. Pero **no siempre devuelven `tru
 
 ```javascript
 // &&: cortocircuito con falsy
-console.log(0 && "Hola");       // 0
-console.log("Hola" && 123);     // 123 (ambos truthy → último)
+console.log(0 && "Hello");      // 0
+console.log("Hello" && 123);    // 123 (ambos truthy → último)
 
 // ||: cortocircuito con truthy
-console.log(null || "Usuario"); // "Usuario"
+console.log(null || "User");    // "Usuario"
 console.log("" || 0 || false);  // false (todos falsy → último)
 
 // !: negación
 console.log(!0);                // true
-console.log(!"Texto");          // false
+console.log(!"Text");           // false
 console.log(!(5 > 3 && true));  // false
 ```
 
@@ -91,12 +93,12 @@ El operador `||` se utiliza para asignar **valores por defecto solamente si el v
 
 ```javascript
 // Ejecutar solo si la condición es truthy
-let usuario = { nombre: "Ana" };
-usuario && console.log(usuario.nombre); // "Ana"
+let user = { name: "Ana" };
+user && console.log(user.name); // "Ana"
 
 // Asignar valor por defecto si es falsy
-let nombre = "" || "Invitado";          // "Invitado"
-let edad = 0 || 18;                     // 18 (cuidado: 0 es falsy)
+let name = "" || "Guest";              // "Guest"
+let age = 0 || 18;                     // 18 (cuidado: 0 es falsy)
 ```
 
 ## Operador Nullish Coalescing (`??`)
@@ -114,11 +116,11 @@ A diferencia de `||`, **respeta valores válidos** como `0`, `""` o `fals
 // Con ?? (solo null/undefined)
 const p1 = null ?? 1;      // 1
 const p2 = 0 ?? 1;         // 0  (válido)
-const p3 = "" ?? "Texto";  // "" (válido)
+const p3 = "" ?? "Text";  // "" (válido)
 
 // Con || (cualquier falsy)
 const p4 = 0 || 1;         // 1
-const p5 = "" || "Texto";  // "Texto"
+const p5 = "" || "Text";  // "Text"
 ```
 
 >**🔍 Recomendación:** Usa `??` para valores por defecto cuando `0`, `false` o `""` sean datos válidos, utiliza `||` solo cuando quieras reemplazar **cualquier valor falsy** en general.

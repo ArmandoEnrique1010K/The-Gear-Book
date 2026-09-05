@@ -2,6 +2,7 @@
 orden: 10
 tags:
   - Conversiones
+estado: true
 ---
 
 ## Tipos de Números en JavaScript
@@ -32,12 +33,12 @@ console.log(typeof 9007199254740991n); // "bigint"
 | `**`     | Potencia (ES6) | `2 ** 3` | `8`       |
 
 ```js
-let suma = 5 + 3;          // 8
-let resta = 10 - 4;        // 6
-let multiplicacion = 7 * 3; // 21
-let division = 15 / 3;     // 5
-let modulo = 10 % 3;       // 1
-let potencia = 2 ** 3;     // 8
+let addition = 5 + 3;         // 8
+let subtraction = 10 - 4;     // 6
+let multiplication = 7 * 3;   // 21
+let division = 15 / 3;        // 5
+let module = 10 % 3;          // 1
+let power = 2 ** 3;           // 8
 ```
 
 >**⚠️ Importante:** La división entre `0` no da error, sino `Infinity` o `-Infinity`.
@@ -82,9 +83,9 @@ console.log(Math.random()); // 0.2374 (ejemplo)
 
 ```js
 // Uso de un array
-const numeros = [10, 20, 5];
-console.log(Math.max(...numeros)); // 20 (usa spread operator)
-console.log(Math.min(...numeros)); // 5
+const numbers = [10, 20, 5];
+console.log(Math.max(...numbers)); // 20 (usa spread operator)
+console.log(Math.min(...numbers)); // 5
 ```
 
 ### Potencias y raíces
@@ -121,11 +122,11 @@ console.log(Math.sign(NaN)); // NaN
 
 `Math` también incluye constantes útiles:
 
-| Constante    | Descripción        | Valor                |     |
-| ------------ | ------------------ | -------------------- | --- |
-| `Math.PI`    | Número Pi          | `3.141592653589793`  |     |
-| `Math.E`     | Número de Euler    | `2.718281828459045`  |     |
-| `Math.SQRT2` | Raíz cuadrada de 2 | `1.4142135623730951` |     |
+| Constante    | Descripción        | Valor                |
+| ------------ | ------------------ | -------------------- |
+| `Math.PI`    | Número Pi          | `3.141592653589793`  |
+| `Math.E`     | Número de Euler    | `2.718281828459045`  |
+| `Math.SQRT2` | Raíz cuadrada de 2 | `1.4142135623730951` |
 
 ```js
 console.log(Math.PI);                // 3.141592653589793
@@ -138,7 +139,7 @@ JavaScript tiene valores numéricos especiales que representan casos límite:
 
 | Valor                     | Descripción                                         | Ejemplo                 |
 | ------------------------- | --------------------------------------------------- | ----------------------- |
-| `NaN`                     | **Not a Number** - resultado de operación inválida. | `"texto" * 2` → `NaN`   |
+| `NaN`                     | **Not a Number** - resultado de operación inválida. | `"text" * 2` → `NaN`    |
 | `Infinity`                | Infinito positivo.                                  | `10 / 0` → `Infinity`   |
 | `-Infinity`               | Infinito negativo.                                  | `-10 / 0` → `-Infinity` |
 | `Number.MAX_VALUE`        | Máximo número representable.                        | `1.79e+308`             |
@@ -147,7 +148,7 @@ JavaScript tiene valores numéricos especiales que representan casos límite:
 | `Number.MIN_SAFE_INTEGER` | Mínimo entero seguro.                               | `-9007199254740991`     |
 
 ```js
-console.log("texto" * 2);              // NaN
+console.log("text" * 2);              // NaN
 console.log(10 / 0);                   // Infinity
 console.log(-10 / 0);                  // -Infinity
 console.log(Number.MAX_VALUE);         // 1.7976931348623157e+308
@@ -158,20 +159,20 @@ console.log(Number.MAX_SAFE_INTEGER);  // 9007199254740991
 
 | Método                        | Descripción                                            | Ejemplo                                 |
 | ----------------------------- | ------------------------------------------------------ | --------------------------------------- |
-| `isNaN(valor)`                | **Convierte** a número y verifica si es `NaN`.         | `isNaN("Hola")` → `true`                |
-| `Number.isNaN(valor)`         | **No convierte**, solo `true` si es exactamente `NaN`. | `Number.isNaN("Hola")` → `false`        |
+| `isNaN(valor)`                | **Convierte** a número y verifica si es `NaN`.         | `isNaN("Hello")` → `true`               |
+| `Number.isNaN(valor)`         | **No convierte**, solo `true` si es exactamente `NaN`. | `Number.isNaN("Hello")` → `false`       |
 | `isFinite(valor)`             | Verifica si es un número finito.                       | `isFinite(100)` → `true`                |
 | `Number.isFinite(valor)`      | **No convierte**, verifica si es número finito.        | `Number.isFinite("100")` → `false`      |
 | `Number.isInteger(valor)`     | Verifica si es un número entero.                       | `Number.isInteger(10.5)` → `false`      |
 | `Number.isSafeInteger(valor)` | Verifica si es un entero seguro.                       | `Number.isSafeInteger(2**53)` → `false` |
 
 ```js
-console.log(isNaN("Hola"));              // true (convierte "Hola" → NaN)
-console.log(Number.isNaN("Hola"));       // false (no convierte)
-console.log(isFinite(100));              // true
-console.log(Number.isFinite("100"));     // false (no convierte)
-console.log(Number.isInteger(10.5));     // false
-console.log(Number.isInteger(10));       // true
+console.log(isNaN("Hello"));              // true (convierte "Hello" → NaN)
+console.log(Number.isNaN("Hello"));       // false (no convierte)
+console.log(isFinite(100));               // true
+console.log(Number.isFinite("100"));      // false (no convierte)
+console.log(Number.isInteger(10.5));      // false
+console.log(Number.isInteger(10));        // true
 ```
 
 >**✅ Recomendación:** Siempre usa `Number.isNaN()` y `Number.isFinite()` para evitar falsos positivos.

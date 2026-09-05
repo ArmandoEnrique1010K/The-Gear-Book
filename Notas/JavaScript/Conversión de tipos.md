@@ -2,6 +2,7 @@
 orden: 8
 tags:
   - Conversiones
+estado: true
 ---
 
 ## Conversión Implícita (Coerción)
@@ -37,7 +38,7 @@ console.log(0 == false);    // true
 console.log(5 === "5");     // false (tipos distintos)
 ```
 
->**⚠️ Advertencia:** La coerción con \=\= puede generar resultados inesperados. Siempre prefiere \=\=\= y `!==`.
+>**⚠️ Advertencia:** La coerción con \== puede generar resultados inesperados. Siempre prefiere \=== y `!==`.
 
 ## Conversión Explícita (Manual)
 
@@ -81,38 +82,38 @@ console.log(false + "");           // "false"
 
 ### De cualquier tipo a booleano
 
-| Método                | Descripción                                                | Ejemplo                    |
-| --------------------- | ---------------------------------------------------------- | -------------------------- |
-| `Boolean(valor)`      | Convierte explícitamente según reglas **truthy/falsy**.    | `Boolean("Hola")` → `true` |
-| `!!` (doble negación) | Forma rápida y concisa de obtener el equivalente booleano. | `!!0` → `false`            |
+| Método                | Descripción                                                | Ejemplo                     |
+| --------------------- | ---------------------------------------------------------- | --------------------------- |
+| `Boolean(valor)`      | Convierte explícitamente según reglas **truthy/falsy**.    | `Boolean("Hello")` → `true` |
+| `!!` (doble negación) | Forma rápida y concisa de obtener el equivalente booleano. | `!!0` → `false`             |
 
 ```javascript
-console.log(Boolean("Hola"));   // true
-console.log(Boolean(""));       // false
-console.log(!!0);               // false
-console.log(!![]);              // true  (arreglo vacío es truthy)
+console.log(Boolean("Hello"));   // true
+console.log(Boolean(""));        // false
+console.log(!!0);                // false
+console.log(!![]);               // true  (arreglo vacío es truthy)
 ```
 
 ## Validación de `NaN` (Not a Number)
 
 `NaN` aparece cuando una operación numérica falla. Para detectarlo correctamente:
 
-| Método                | Comportamiento                                                                     | Ejemplo                          |
-| --------------------- | ---------------------------------------------------------------------------------- | -------------------------------- |
-| `isNaN(valor)`        | **Convierte** el valor a número primero. Puede dar `true` en valores no numéricos. | `isNaN("hola")` → `true`         |
-| `Number.isNaN(valor)` | **No convierte**. Solo `true` si el valor es exactamente `NaN` y tipo `number`.    | `Number.isNaN("hola")` → `false` |
+| Método                | Comportamiento                                                                     | Ejemplo                           |
+| --------------------- | ---------------------------------------------------------------------------------- | --------------------------------- |
+| `isNaN(valor)`        | **Convierte** el valor a número primero. Puede dar `true` en valores no numéricos. | `isNaN("hello")` → `true`         |
+| `Number.isNaN(valor)` | **No convierte**. Solo `true` si el valor es exactamente `NaN` y tipo `number`.    | `Number.isNaN("hello")` → `false` |
 
 ```javascript
-console.log(Number("123abc"));        // NaN
-console.log(0 / 0);                   // NaN
+console.log(Number("123abc"));            // NaN
+console.log(0 / 0);                       // NaN
 
-console.log(isNaN("hola"));           // true (convierte "hola" → NaN)
-console.log(isNaN(undefined));        // true
-console.log(isNaN("123"));            // false
+console.log(isNaN("hello"));              // true (convierte "hello" → NaN)
+console.log(isNaN(undefined));            // true
+console.log(isNaN("123"));                // false
 
-console.log(Number.isNaN("hola"));    // false (no es número)
-console.log(Number.isNaN(undefined)); // false
-console.log(Number.isNaN(NaN));       // true
+console.log(Number.isNaN("hello"));       // false (no es número)
+console.log(Number.isNaN(undefined));     // false
+console.log(Number.isNaN(NaN));           // true
 console.log(Number.isNaN(Number("abc"))); // true
 ```
 
@@ -144,8 +145,8 @@ Este patrón es muy útil para **validar entradas de usuario** (formularios, i
 const input = "123.45";
 
 if (!Number.isNaN(Number(input))) {
-  console.log("Número válido:", Number(input));
+  console.log("Valid number:", Number(input));
 } else {
-  console.log("¡No es un número!");
+  console.log("¡It is not a number.!");
 }
 ```

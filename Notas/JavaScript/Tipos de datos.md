@@ -1,7 +1,8 @@
 ---
+orden: 5
 tags:
   - Datos
-orden: 5
+estado: true
 ---
 
 ## Tipos de datos en JavaScript

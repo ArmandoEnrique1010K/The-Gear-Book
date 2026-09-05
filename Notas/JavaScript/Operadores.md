@@ -2,6 +2,7 @@
 orden: 6
 tags:
   - Datos
+estado: true
 ---
 
 ## Operadores Aritméticos
@@ -46,17 +47,17 @@ Modifican el valor de una variable aplicando una operación aritmética y reasig
 | `**=`    | Potencia y asignación       | `x **= y` equivale a `x = x ** y`                            |
 
 ```javascript
-let contador = 10;
-let valor = 5;
+let counter = 10;
+let value = 5;
 
-contador += valor;  // 15
-contador -= valor;  // 10
-contador *= valor;  // 50
-contador /= valor;  // 10
-contador %= valor;  // 0
+counter += value;  // 15
+counter -= value;  // 10
+counter *= value;  // 50
+counter /= value;  // 10
+counter %= value;  // 0
 
-contador = 2;
-contador **= valor; // 32
+counter = 2;
+counter **= value; // 32
 ```
 
 ## Operadores de Comparación
