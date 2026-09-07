@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b4d6fdad45bc890e",
+        "id": "ae20337c26c606b7",
         "type": "tabs",
         "children": [
           {
-            "id": "5c92ad8f3aff5d8b",
+            "id": "1a50d3006cefbde4",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Inicio.base",
-                "viewName": "Tabla"
+                "file": "JavaScript/Conceptos avanzados de objetos.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Inicio"
+              "icon": "lucide-file",
+              "title": "Conceptos avanzados de objetos"
             }
           }
         ]
@@ -54,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IEEE 754",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inicio.base",
+                "file": "JavaScript/Conceptos avanzados de objetos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -200,21 +201,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5c92ad8f3aff5d8b",
+  "active": "1a50d3006cefbde4",
   "lastOpenFiles": [
-    "JavaScript/Números decimales.md",
     "Inicio.base",
-    "JavaScript/Números y matemáticas.md",
+    "JavaScript/Conceptos avanzados de objetos.md",
+    "JavaScript/Técnicas comunes en objetos.md",
+    "JavaScript/Conceptos avanzados de funciones.md",
+    "JavaScript/Objetos.md",
+    "JavaScript/Características de los objetos.md",
+    "JavaScript/Callbacks.md",
+    "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Parámetros y argumentos.md",
+    "JavaScript/Funciones.md",
+    "Formato de números.md",
     "JavaScript/Cadenas de texto.md",
-    "JavaScript/Conversión de tipos.md",
-    "JavaScript/Booleanos.md",
+    "JavaScript/Números y matemáticas.md",
+    "JavaScript/Números decimales.md",
+    "Sin título.canvas",
     "JavaScript/Operadores.md",
-    "JavaScript/Tipos de datos.md",
     "JavaScript/Variables y constantes.md",
     "JavaScript/Sintaxis de JavaScript.md",
-    "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Conversión de tipos.md",
+    "JavaScript/Booleanos.md",
+    "JavaScript/Tipos de datos.md",
     "JavaScript/Introducción a JavaScript.md",
-    "Formato de números.md",
     "assets/JavaScript logo.png",
     "assets/Logo de Devin Desktop.png",
     "assets/JavaScript-logo.png",
@@ -236,8 +246,6 @@
     "Sin título 1.base",
     "Sin título.base",
     "HTML.md",
-    "Enlaces",
-    "README 1.md",
-    "README.md"
+    "Enlaces"
   ]
 }

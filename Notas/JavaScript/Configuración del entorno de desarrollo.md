@@ -3,7 +3,7 @@ orden: 2
 tags:
   - Introducción
 Comentario: Cambiar la imagen de la consola de chrome
-estado: true
+estado: false
 ---
 
 ## Navegador web recomendado
