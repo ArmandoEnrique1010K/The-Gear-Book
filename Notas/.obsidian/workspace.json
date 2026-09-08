@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ae20337c26c606b7",
+        "id": "c2cf0462cc8d61c5",
         "type": "tabs",
         "children": [
           {
-            "id": "1a50d3006cefbde4",
+            "id": "ac5f2815311d9974",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "JavaScript/Conceptos avanzados de objetos.md",
-                "mode": "source",
-                "source": false
+                "file": "Inicio.base",
+                "viewName": "Tabla"
               },
-              "icon": "lucide-file",
-              "title": "Conceptos avanzados de objetos"
+              "icon": "lucide-table",
+              "title": "Inicio"
             }
           }
         ]
@@ -55,11 +54,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Fechas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Conceptos avanzados de objetos.md",
+                "file": "Inicio.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,30 +200,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1a50d3006cefbde4",
+  "active": "ac5f2815311d9974",
   "lastOpenFiles": [
+    "JavaScript/El objeto `Date`.md",
     "Inicio.base",
+    "Formato de números.md",
+    "JavaScript/Métodos en objetos.md",
     "JavaScript/Conceptos avanzados de objetos.md",
-    "JavaScript/Técnicas comunes en objetos.md",
-    "JavaScript/Conceptos avanzados de funciones.md",
+    "JavaScript/Conceptos avanzados de arreglos.md",
+    "JavaScript/Arreglos.md",
+    "JavaScript/Desestructuración de objetos.md",
     "JavaScript/Objetos.md",
-    "JavaScript/Características de los objetos.md",
+    "JavaScript/Operadores.md",
+    "JavaScript/Conceptos avanzados de funciones.md",
+    "JavaScript/Inmutabilidad en arreglos.md",
+    "JavaScript/Métodos en arreglos.md",
+    "JavaScript/Estructuras de bucle.md",
+    "JavaScript/Precedencia de operadores.md",
+    "JavaScript/Declaraciones y expresiones.md",
+    "JavaScript/Estructuras condicionales.md",
     "JavaScript/Callbacks.md",
+    "JavaScript/Introducción a JavaScript.md",
     "JavaScript/Configuración del entorno de desarrollo.md",
+    "JavaScript/Booleanos.md",
     "JavaScript/Parámetros y argumentos.md",
     "JavaScript/Funciones.md",
-    "Formato de números.md",
     "JavaScript/Cadenas de texto.md",
     "JavaScript/Números y matemáticas.md",
     "JavaScript/Números decimales.md",
     "Sin título.canvas",
-    "JavaScript/Operadores.md",
-    "JavaScript/Variables y constantes.md",
-    "JavaScript/Sintaxis de JavaScript.md",
-    "JavaScript/Conversión de tipos.md",
-    "JavaScript/Booleanos.md",
-    "JavaScript/Tipos de datos.md",
-    "JavaScript/Introducción a JavaScript.md",
     "assets/JavaScript logo.png",
     "assets/Logo de Devin Desktop.png",
     "assets/JavaScript-logo.png",
@@ -234,18 +238,13 @@
     "assets",
     "JavaScript",
     "JavaScript Logo.png",
-    "Bienvenido.md",
-    "Documentación/Introducción a JavaScript.md",
-    "Documentación/Sintaxis de JavaScript.md",
     "Documentación/JS.base",
-    "Sin título 1.md",
     "Documentación/JavaScript",
     "Documentación/Sin título.canvas",
     "Sin título 2.base",
     "Documentación",
     "Sin título 1.base",
     "Sin título.base",
-    "HTML.md",
     "Enlaces"
   ]
 }

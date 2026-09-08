@@ -3,10 +3,10 @@ orden: 18
 tags:
   - Objetos
 Comentario:
-estado:
+estado: true
 ---
 
-## Métodos en objetos
+## ¿Qué es un método?
 
 En JavaScript, los objetos pueden contener **funciones como valores** de sus propiedades. Cuando una función es propiedad de un objeto, se le llama **método**.
 
@@ -245,6 +245,23 @@ Object.entries(car).forEach(([key, value]) => {
 // brand: Ford
 // model: Mustang
 // year: 2022
+```
+
+## Método `Object.hasOwn()`
+
+El método `Object.hasOwn()` es una forma moderna y segura de verificar si un objeto tiene una **propiedad propia** (no heredada) con un nombre específico.
+
+```js
+const user = {
+  name: "Ana",
+  age: 30
+};
+
+// Propiedad propia
+console.log(Object.hasOwn(user, "name")); // true
+
+// Propiedad no existente
+console.log(Object.hasOwn(user, "email")); // false
 ```
 
 ## Buenas Prácticas con técnicas comunes en objetos

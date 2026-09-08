@@ -119,7 +119,7 @@ console.log(available); // false
 
 Esta característica de **ES6** permite crear objetos de manera más eficiente cuando las variables ya existen en el ámbito.
 
-- Si el nombre de la variable coincide con el nombre de la propiedad, puedes omitir la asignación explícita.
+Si el nombre de la variable coincide con el nombre de la propiedad (**Shorthand Property**), puedes omitir la asignación explícita.
 
 ```js
 const brand = "Ford";
@@ -131,7 +131,7 @@ const car = { brand, model };
 console.log(car); // { brand: "Ford", model: "Mustang" }
 ```
 
-## Operador Spread (`...`) en Objetos
+## Operador spread (`...`) en Objetos
 
 El operador **spread** permite copiar, combinar y extender objetos de forma concisa.
 
@@ -171,8 +171,8 @@ console.log(user1 === user2); // false → son objetos distintos
 
 ### Referencia vs. Copia
 
-- **Sin el operador Spread**, se pasa la referencia del objeto original, los cambios afectan al original y al destino.
-- **Con el operador Spread**, se copia el objeto, los cambios posteriores en el original no afectan la copia.
+- **Sin el operador spread**, se pasa la referencia del objeto original, los cambios afectan al original y al destino.
+- **Con el operador spread**, se copia el objeto, los cambios posteriores en el original no afectan la copia.
 
 ```js
 const product = { name: "Tablet", price: 300 };

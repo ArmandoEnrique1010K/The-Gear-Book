@@ -6,6 +6,37 @@ Comentario:
 estado: true
 ---
 
+## Función pura
+
+Una función pura no tiene **efectos secundarios** (no modifica variables globales ni los datos que recibe).
+
+```js
+function sumar(a, b) {
+  return a + b;
+}
+
+console.log(sumar(2, 3)); // Siempre devuelve 5
+console.log(sumar(2, 3)); // Siempre devuelve 5
+```
+
+## Función impura
+
+Una función impura modifica un valor externo o depende de algo fuera de su control (como `Math.random()` o una variable global), lo que la hace menos predecible.
+
+```js
+// Variable externa
+let total = 0;
+
+// Función impura (modifica una variable de afuera)
+function sumarConEfecto(a) {
+  total += a;
+  return total;
+}
+
+console.log(sumarConEfecto(3)); // Devuelve 3
+console.log(sumarConEfecto(3)); // Devuelve 6 (cambió el resultado con la misma entrada)
+```
+
 ## Funciones Autoejecutables (IIFE)
 
 Una **IIFE** (_Immediately Invoked Function Expression_) es una función que se **define y ejecuta inmediatamente** después de su creación.
