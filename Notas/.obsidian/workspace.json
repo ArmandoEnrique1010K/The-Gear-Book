@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c2cf0462cc8d61c5",
+        "id": "161795ccc7e8dda0",
         "type": "tabs",
         "children": [
           {
-            "id": "ac5f2815311d9974",
+            "id": "b2b22bba97a5f774",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Inicio.base",
-                "viewName": "Tabla"
+                "file": "Manejo de errores.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Inicio"
+              "icon": "lucide-file",
+              "title": "Manejo de errores"
             }
           }
         ]
@@ -54,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Fechas",
+                "query": "Intl.NumberFormat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inicio.base",
+                "file": "Manejo de errores.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -200,11 +201,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ac5f2815311d9974",
+  "active": "b2b22bba97a5f774",
   "lastOpenFiles": [
-    "JavaScript/El objeto `Date`.md",
     "Inicio.base",
+    "Manejo de errores.md",
+    "JavaScript/Formateo de números.md",
     "Formato de números.md",
+    "JavaScript/El objeto Date.md",
+    "JavaScript/Operaciones con fechas.md",
+    "JavaScript/Formateo de fechas.md",
+    "JavaScript/Cadenas de texto.md",
     "JavaScript/Métodos en objetos.md",
     "JavaScript/Conceptos avanzados de objetos.md",
     "JavaScript/Conceptos avanzados de arreglos.md",
@@ -223,11 +229,6 @@
     "JavaScript/Introducción a JavaScript.md",
     "JavaScript/Configuración del entorno de desarrollo.md",
     "JavaScript/Booleanos.md",
-    "JavaScript/Parámetros y argumentos.md",
-    "JavaScript/Funciones.md",
-    "JavaScript/Cadenas de texto.md",
-    "JavaScript/Números y matemáticas.md",
-    "JavaScript/Números decimales.md",
     "Sin título.canvas",
     "assets/JavaScript logo.png",
     "assets/Logo de Devin Desktop.png",
